@@ -1,0 +1,137 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f7f9fc;
+  color: #222;
+}
+.navbar-brand {
+  letter-spacing: 0.5px;
+}
+.carousel-item img {
+  height: 430px;
+  object-fit: cover;
+}
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.55);
+  border-radius: 12px;
+  padding: 20px;
+}
+h1,
+h2 {
+  color: #0d6efd;
+  font-weight: 700;
+}
+h3 {
+  font-size: 1.25rem;
+  color: #16437e;
+}
+.card {
+  border: 0;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+  border-radius: 14px;
+}
+.product-card img {
+  height: 220px;
+  object-fit: cover;
+  border-radius: 14px 14px 0 0;
+  background: #e9f2ff;
+}
+.product-card,
+.service-card,
+.highlight-card {
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+.product-card:hover,
+.service-card:hover,
+.service-card:focus,
+.highlight-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+}
+.price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #198754;
+}
+.form-label {
+  font-weight: bold;
+}
+input:focus,
+select:focus,
+textarea:focus,
+a:focus,
+button:focus,
+[tabindex="0"]:focus {
+  outline: 3px solid #ffc107 !important;
+  outline-offset: 3px;
+}
+.footer {
+  background: #0d6efd;
+  color: white;
+  text-align: center;
+  padding: 24px 12px;
+  margin-top: 40px;
+}
+.footer p {
+  margin: 4px 0;
+}
+@media (max-width: 768px) {
+  .carousel-item img {
+    height: 300px;
+  }
+  .carousel-caption {
+    position: static;
+    border-radius: 0;
+  }
+}
+
+.objetivo-metas,
+.home-info {
+  background: #ffffff;
+  border-radius: 12px;
+}
+
+.objetivo-metas h2,
+.home-info h2 {
+  color: #2454a6;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.objetivo-metas h3,
+.home-info h3 {
+  color: #2454a6;
+  font-size: 1.35rem;
+  margin-top: 24px;
+}
+
+.objetivo-metas p,
+.objetivo-metas li,
+.home-info p,
+.home-info td,
+.home-info th {
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.info-box {
+  background: #f7f9fc;
+  border-left: 5px solid #0d6efd;
+  border-radius: 12px;
+  height: 100%;
+  padding: 18px;
+}
+
+.info-box h3,
+.highlight-card h3 {
+  margin-top: 0;
+}
+
+.price-card {
+  border-top: 6px solid #198754;
+}
+
+.price-card .table {
+  margin-bottom: 20px;
+}

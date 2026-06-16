@@ -1,0 +1,24 @@
+Nome do estudante: Diógenes Moreira Legal
+
+Objetivo e metas
+O que se quer alcançar e as atividades específicas para atingir o objetivo.
+
+O objetivo deste projeto é desenvolver a Fase 2 do sistema web do Petshop Amigo Fiel, mantendo a proposta iniciada na Fase 1 e tornando o site mais completo, atrativo, organizado, dinâmico e acessível. Para isso, o sistema apresenta produtos, serviços, formulário de cadastro do cliente e do pet, além da possibilidade de agendamento para banho e tosa, com escolha entre tele-busca ou entrega do pet no local.
+
+Metas do projeto:
+1. Manter o cabeçalho, o menu de navegação e o rodapé padronizados nas páginas do sistema web.
+2. Apresentar os produtos do petshop em três categorias: acessórios, rações não perecíveis e produtos de higiene e limpeza.
+3. Incluir pelo menos dois produtos em cada categoria, contendo imagem, descrição, valor e texto alternativo no atributo alt.
+4. Utilizar CSS e Bootstrap para melhorar a aparência do site, incluindo carrossel, cards, botões e layout responsivo.
+5. Aplicar JavaScript para tornar o sistema mais dinâmico, com função temporal, validação do formulário e resumo do agendamento.
+6. Criar um formulário de cadastro com dados do cliente, como nome, endereço, CPF, sexo, telefone e e-mail.
+7. Criar campos para identificação do pet, como nome, raça e idade, usando elementos variados de formulário.
+8. Permitir a escolha do serviço de banho ou tosa e do método de agendamento: tele-busca ou entrega do pet no local.
+9. Disponibilizar calendário e horário para definição da data de agendamento.
+10. Adaptar o sistema com recurso de acessibilidade para deficientes visuais, utilizando textos alternativos nas imagens, labels nos campos e navegação por teclado.
+
+Link de acesso ao GitHub
+Cole aqui o link do repositório.
+
+Link de acesso ao GitHub Pages
+Cole aqui o link do site publicado.
