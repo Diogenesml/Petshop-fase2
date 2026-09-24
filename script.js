@@ -8,7 +8,13 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   const dataInput = document.getElementById("data");
-  if (dataInput) dataInput.min = new Date().toISOString().split("T")[0];
+  if (dataInput) {
+    const hoje = new Date();
+    const ano = hoje.getFullYear();
+    const mes = String(hoje.getMonth() + 1).padStart(2, "0");
+    const dia = String(hoje.getDate()).padStart(2, "0");
+    dataInput.min = `${ano}-${mes}-${dia}`;
+  }
 
   const form = document.getElementById("formAgendamento");
   if (!form) return;
