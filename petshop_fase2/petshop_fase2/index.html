@@ -3,14 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Conheça o Petshop Amigo Fiel, projeto demonstrativo com produtos, serviços e agendamento para pets.">
+  <meta name="theme-color" content="#12372a">
   <title>Petshop Amigo Fiel - Início</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header class="bg-primary text-white">
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header text-white">
     <nav class="navbar navbar-expand-lg navbar-dark container">
-      <a class="navbar-brand fw-bold" href="index.html">Petshop Amigo Fiel</a>
+      <a class="navbar-brand fw-bold" href="index.html"><span aria-hidden="true">🐾</span> Amigo Fiel</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-label="Abrir menu de navegação">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -26,7 +29,7 @@
     </nav>
   </header>
 
-  <main>
+  <main id="conteudo">
     <section id="carouselPetshop" class="carousel slide" data-bs-ride="carousel" aria-label="Carrossel de destaques do petshop">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselPetshop" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
@@ -62,6 +65,17 @@
       <button class="carousel-control-next" type="button" data-bs-target="#carouselPetshop" data-bs-slide="next" aria-label="Próximo slide">
         <span class="carousel-control-next-icon"></span>
       </button>
+    </section>
+
+    <section class="intro-strip">
+      <div class="container">
+        <p class="eyebrow">Cuidado, conforto e carinho</p>
+        <h2>Tudo para deixar a rotina do seu melhor amigo mais feliz.</h2>
+        <div class="hero-actions">
+          <a class="btn btn-primary btn-lg" href="cadastro.html">Agendar atendimento</a>
+          <a class="btn btn-outline-primary btn-lg" href="produtos.html">Conhecer produtos</a>
+        </div>
+      </div>
     </section>
 
     <section class="container py-5 home-info">
