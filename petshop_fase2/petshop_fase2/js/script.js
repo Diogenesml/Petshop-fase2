@@ -32,7 +32,8 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     const valores = { Banho: 60, Tosa: 80 };
-    const valor = valores[servico] ?? 0;
+    const taxaTelebusca = metodos.includes("Tele-busca") ? 15 : 0;
+    const valor = (valores[servico] ?? 0) + taxaTelebusca;
     const dataFormatada = new Date(`${data}T12:00:00`).toLocaleDateString("pt-BR");
 
     resultado.className = "alert alert-success mt-4";
