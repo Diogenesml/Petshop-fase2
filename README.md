@@ -1,34 +1,40 @@
-# Petshop Amigo Fiel - Fase 2
+# Petshop Amigo Fiel
 
-Projeto desenvolvido para a disciplina Fundamentos de Sistemas Web.
+Projeto demonstrativo de um petshop fictício, desenvolvido com HTML, CSS, Bootstrap e JavaScript.
 
-## Requisitos atendidos
+## Demonstração
 
-- Uso de HTML, CSS, Bootstrap e JavaScript.
-- Carrossel Bootstrap na página inicial.
-- Página inicial com informações fictícias da petshop, contato, horário, endereço, tele-busca e valores de serviços.
-- Produtos organizados em 3 categorias obrigatórias:
-  - Acessórios: 2 produtos.
-  - Rações não perecíveis: 2 produtos.
-  - Higiene e limpeza: 2 produtos.
-- Cada produto possui foto, descrição, valor e atributo alt.
-- Formulário de cadastro do cliente e do pet.
-- Agendamento com serviço, método, data e horário.
-- JavaScript com saudação temporal, validação e resumo do agendamento.
-- Acessibilidade com atributo alt, labels nos campos e tabindex/foco visível.
-- Rodapé padronizado em todas as páginas.
+Após a publicação da versão revisada, o projeto ficará disponível em:
 
-## Arquivos principais
+https://diogenesml.github.io/Petshop-fase2/
 
-- index.html
-- produtos.html
-- servicos.html
-- cadastro.html
-- contato.html
-- css/style.css
-- js/script.js
-- img/
+## Recursos
 
-## Observação
+- Página inicial responsiva
+- Catálogo de produtos
+- Apresentação de serviços
+- Formulário demonstrativo de cadastro e agendamento
+- Validação em JavaScript
+- Opção de tele-busca com cálculo da taxa
+- Navegação responsiva com Bootstrap
+- Cuidados básicos de acessibilidade e suporte a `prefers-reduced-motion`
 
-Para funcionar com Bootstrap, é necessário acesso à internet, pois o projeto usa CDN do Bootstrap.
+## Estrutura
+
+- `index.html` — página inicial
+- `produtos.html` — catálogo
+- `servicos.html` — serviços
+- `cadastro.html` — cadastro e agendamento
+- `contato.html` — contato fictício
+- `style.css` — identidade visual e responsividade
+- `script.js` — comportamento e validações
+
+As imagens utilizadas pelo projeto permanecem temporariamente na estrutura acadêmica original enquanto a otimização dos assets é concluída.
+
+## Contexto
+
+O projeto nasceu como atividade da disciplina Fundamentos de Sistemas Web e está sendo evoluído para uma versão adequada a portfólio.
+
+## Autor
+
+Diógenes Moreira Legal
