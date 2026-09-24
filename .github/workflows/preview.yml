@@ -1,0 +1,25 @@
+name: Preview Petshop
+
+on:
+  push:
+    branches: [refactor/portfolio-ready]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Prepare static preview
+        run: |
+          mkdir -p preview
+          cp -R petshop_fase2/petshop_fase2/. preview/
+      - name: Upload preview artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: petshop-preview
+          path: preview
+          retention-days: 7
